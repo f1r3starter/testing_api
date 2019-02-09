@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- api/config/api_platform/resources.xml -->
+
+<resources xmlns="https://api-platform.com/schema/metadata"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://api-platform.com/schema/metadata
+           https://api-platform.com/schema/metadata/metadata-2.0.xsd">
+    <resource class="App\Entity\Answer" />
+    <resource class="App\Entity\Question" />
+    <resource class="App\Entity\Test" />
+    <resource class="App\Entity\TestGroup" />
+    <resource class="App\Entity\User" />
+    <resource class="App\Entity\UserAnswer" />
+</resources>
