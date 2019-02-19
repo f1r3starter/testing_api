@@ -27,7 +27,7 @@
       <cascade>
         <cascade-all/>
       </cascade>
-      <join-table name="user_test">
+      <join-table name="users_tests">
         <join-columns>
           <join-column name="test_id" referenced-column-name="id" nullable="false" unique="false" />
         </join-columns>
